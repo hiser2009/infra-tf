@@ -2,7 +2,7 @@ provider "aws" {
   region = var.role_region
 }
 
-resource "aws_iam_role" {
+resource "aws_iam_role" "role_name" {
   name = var.role_name
 
   # Terraform's "jsonencode" function converts a
@@ -22,6 +22,6 @@ resource "aws_iam_role" {
   })
 
   tags = {
-    tag-key = "tag-value"
+    Env = var.hiser_env
   }
 }
