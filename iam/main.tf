@@ -5,4 +5,5 @@ module "iam_account" {
 
   minimum_password_length = var.minimum_password_length
   require_numbers         = var.require_numbers
+  region                  = var.region
 }

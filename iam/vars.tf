@@ -9,3 +9,7 @@ variable minimum_password_length {
 variable require_numbers {
   default = "true"
 }
+
+variable region {
+  default = "us-east-1"
+}
