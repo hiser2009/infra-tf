@@ -1,5 +1,5 @@
 variable account_alias {
-  default = "hiser"
+  default = "hiser_test_tf"
 }
 
 variable minimum_password_length {
