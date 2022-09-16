@@ -1,13 +1,11 @@
-variable role_name {
-  type = string
+variable account_alias {
+  default = "hiser"
 }
 
-variable role_region {
-  default = "us-west-2"
-  type = string
+variable minimum_password_length {
+  default = 10
 }
 
-variable role_env {
-  default = "staging"
-  type = string
+variable require_numbers {
+  default = "true"
 }
